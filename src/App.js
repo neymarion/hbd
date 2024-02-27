@@ -48,13 +48,14 @@ function App() {
 
         <img src={cupcake} className="cupcake" alt="logo" />
         <p className='text'>
-          gratulere med dagen ! 💗
+          gratulere med dagen ! 💗 
+        </p>
+        <p className='text2'>
+          (blow the mic to blow the candle)
         </p>
         
       </header>
-      <p className='bottom'>This is the first line of text.</p>
-<p>This is the new line you want to insert.</p>
-<p>This is the third line of text.</p>
+      <p className='bottom'>© 2024 Marion.</p>
     </div>
   );
 }
