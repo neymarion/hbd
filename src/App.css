@@ -1,0 +1,78 @@
+.full_light {
+  height: 30vh;
+  width: 5vw;
+}
+
+.flame {
+  height: 50px;
+  width: 20px;
+  top: 16vh;
+  left: 48.1vw;
+  object-fit: fill;
+  position: absolute;
+}
+
+.lys {
+  height: 30vh;
+  width: 5vw;
+  position: absolute;
+  top: 20vh;
+}
+
+.cupcake {
+  height: 40vh;
+  width: 40vw;
+  z-index: 1;
+  position: absolute;
+  top: 30vh;
+}
+
+.text {
+  position: absolute;
+  top: 70vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  font-style: italic;
+  color: white;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  color: #61dafb;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
