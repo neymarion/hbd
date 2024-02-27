@@ -7,7 +7,7 @@
   height: 50px;
   width: 20px;
   top: 16vh;
-  left: 48.1vw;
+  left: 49.1vw;
   object-fit: fill;
   position: absolute;
 }
@@ -21,7 +21,7 @@
 
 .cupcake {
   height: 40vh;
-  width: 40vw;
+  width: 38vw;
   z-index: 1;
   position: absolute;
   top: 30vh;
