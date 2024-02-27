@@ -75,3 +75,38 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 500px) {
+  .full_light {
+    height: 20vh;
+    width: 10vw;
+  }
+  
+  .flame {
+    height: 40px;
+    width: 10px;
+    top: 17vh;
+    object-fit: fill;
+    position: absolute;
+  }
+  
+  .lys {
+    height: 30vh;
+    width: 10vw;
+    position: absolute;
+    top: 20vh;
+  }
+  
+  .cupcake {
+    height: 30vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    top: 30vh;
+  }
+  
+  .text {
+    position: absolute;
+    top: 70vh;
+  }
+  
+}
